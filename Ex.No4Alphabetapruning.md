@@ -19,18 +19,13 @@ Write a Alpha beta pruning algorithm to find the optimal value of MAX Player fro
 # Python program to demonstrate working of Alpha-Beta Pruning 
 # Initial values of Alpha and Beta 
 MAX, MIN = 1000, -1000 
- 
 # Returns optimal value for current player 
 #(Initially called for root and maximizer) 
 def minimax(depth, nodeIndex, maximizingPlayer, values, alpha, beta): 
- 
- # Terminating condition. i.e 
- # leaf node is reached 
  if depth == 3: 
      return values[nodeIndex] 
  if maximizingPlayer: 
      best = MIN 
- # Recur for left and right children 
      for i in range(0, 2): 
          val = minimax(depth + 1, nodeIndex * 2 + i, False, values, alpha, beta) 
          best = max(best, val) 
