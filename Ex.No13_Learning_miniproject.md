@@ -91,6 +91,7 @@ plt.show()
 ### Output:
 ![image](https://github.com/user-attachments/assets/e8a66d3c-9fc1-4054-8c30-1f0a716d9423)
 
+
 ![image](https://github.com/user-attachments/assets/02e6a5ac-c44a-4eff-9984-ec8d18e695e8)
 
 ![image](https://github.com/user-attachments/assets/b969d99d-a56b-401d-b216-a9b6e8b5e08f)
