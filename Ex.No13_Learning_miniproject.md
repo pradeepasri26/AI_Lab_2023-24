@@ -3,6 +3,7 @@
 ### REGISTER NUMBER : 212221220038
 ### AIM: 
 To predict customer churn for a telecom company by analyzing customer behavior and usage patterns, enabling proactive retention strategies.
+
 ###  Algorithm:
 1.Import Libraries: Load necessary libraries (Pandas, NumPy, scikit-learn, etc.) and ignore warnings.
 2.Load Dataset: Load the CSV file, drop unnecessary columns, and convert data types as needed.
@@ -14,6 +15,7 @@ To predict customer churn for a telecom company by analyzing customer behavior a
 8.Train Voting Classifier Ensemble: Combine GradientBoostingClassifier, LogisticRegression, and AdaBoostClassifier into a VotingClassifier, and train it.
 9.Evaluate Voting Classifier: Predict and assess ensemble accuracy and confusion matrix.
 10.End Program.
+
 ### Program:
 ```
 import pandas as pd
@@ -85,9 +87,12 @@ sns.heatmap(confusion_matrix(y_test, predictions),
 plt.title("FINAL CONFUSION MATRIX",fontsize=14)
 plt.show()
 ```
+
 ### Output:
 ![image](https://github.com/user-attachments/assets/e8a66d3c-9fc1-4054-8c30-1f0a716d9423)
+
 ![image](https://github.com/user-attachments/assets/02e6a5ac-c44a-4eff-9984-ec8d18e695e8)
+
 ![image](https://github.com/user-attachments/assets/b969d99d-a56b-401d-b216-a9b6e8b5e08f)
 
 ### Result:
