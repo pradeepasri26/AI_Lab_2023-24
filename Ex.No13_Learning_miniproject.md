@@ -9,6 +9,7 @@ To write a program to train the classifier for -----------------.
 
 
 ### Output:
+![image](https://github.com/user-attachments/assets/02e6a5ac-c44a-4eff-9984-ec8d18e695e8)
 
 
 ### Result:
