@@ -60,8 +60,6 @@ model_rf = RandomForestClassifier(n_estimators=500 , oob_score = True, n_jobs = 
                                   random_state =50, max_features = "auto",
                                   max_leaf_nodes = 30)
 model_rf.fit(X_train, y_train)
-
-# Make predictions
 prediction_test = model_rf.predict(X_test)
 print (metrics.accuracy_score(y_test, prediction_test))
 print(classification_report(y_test, prediction_test))
@@ -84,13 +82,11 @@ print(accuracy_score(y_test, predictions))
 plt.figure(figsize=(4,3))
 sns.heatmap(confusion_matrix(y_test, predictions),
                 annot=True,fmt = "d",linecolor="k",linewidths=3)
-
 plt.title("FINAL CONFUSION MATRIX",fontsize=14)
 plt.show()
 ```
 ### Output:
 ![image](https://github.com/user-attachments/assets/e8a66d3c-9fc1-4054-8c30-1f0a716d9423)
-
 ![image](https://github.com/user-attachments/assets/02e6a5ac-c44a-4eff-9984-ec8d18e695e8)
 ![image](https://github.com/user-attachments/assets/b969d99d-a56b-401d-b216-a9b6e8b5e08f)
 
